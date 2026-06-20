@@ -22,5 +22,4 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dpprosk_qa-auto-engineer-python-tw-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=dpprosk_qa-auto-engineer-python-tw-project-49)
 
-#### brain even demo
-<script src="https://asciinema.org/a/bqNaXDrJAeIS4oAJ.js" id="asciicast-bqNaXDrJAeIS4oAJ" async="true"></script>
+![brain even demo](assets/even-game.gif)
