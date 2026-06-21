@@ -30,3 +30,6 @@
 
 #### Brain GCD demo
 ![brain gcd demo](assets/gcd-game.gif)
+
+#### Brain progression demo
+![brain progression demo](assets/progression.gif)
