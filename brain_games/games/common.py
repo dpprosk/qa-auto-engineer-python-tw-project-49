@@ -1,6 +1,6 @@
 import prompt
 
-from . import game_calc, game_even
+from . import game_calc, game_even, game_gcd
 
 
 def print_banner(game):
@@ -9,6 +9,8 @@ def print_banner(game):
             game_even.banner()
         case 'calc':
             game_calc.banner()
+        case 'gcd':
+            game_gcd.banner()
 
 
 def get_data(game):
@@ -17,6 +19,8 @@ def get_data(game):
             return game_even.question_with_answer()
         case 'calc':
             return game_calc.question_with_answer()
+        case 'gcd':
+            return game_gcd.question_with_answer()
 
 
 def start(game):

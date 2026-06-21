@@ -27,3 +27,6 @@
 
 #### Brain calc demo
 ![brain calc demo](assets/calc-game.gif)
+
+#### Brain GCD demo
+![brain gcd demo](assets/gcd-game.gif)
