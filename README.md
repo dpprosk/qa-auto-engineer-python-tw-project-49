@@ -30,7 +30,8 @@ Brain games training project with five games.
 
 Clone repository and run in project root:
 
-```make build
+```
+make build
 make package-install
 ```
 
