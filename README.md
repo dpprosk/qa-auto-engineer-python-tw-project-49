@@ -22,4 +22,8 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dpprosk_qa-auto-engineer-python-tw-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=dpprosk_qa-auto-engineer-python-tw-project-49)
 
+#### Brain even demo
 ![brain even demo](assets/even-game.gif)
+
+#### Brain calc demo
+![brain calc demo](assets/calc-game.gif)
