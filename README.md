@@ -33,3 +33,6 @@
 
 #### Brain progression demo
 ![brain progression demo](assets/progression.gif)
+
+#### Brain prime demo
+![brain prime demo](assets/prime.gif)
