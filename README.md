@@ -22,6 +22,21 @@
 
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dpprosk_qa-auto-engineer-python-tw-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=dpprosk_qa-auto-engineer-python-tw-project-49)
 
+### Brain games
+
+Brain games training project with five games.
+
+#### Installation
+
+Clone repository and run in project root:
+
+```make build
+make package-install
+```
+
+After that brain-calc, brain-even, brain-gcd, brain-prime and brain-progression will be available to run.
+
+
 #### Brain even demo
 ![brain even demo](assets/even-game.gif)
 
