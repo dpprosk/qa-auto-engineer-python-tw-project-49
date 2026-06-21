@@ -1,6 +1,8 @@
 from math import sqrt
 from random import randint
 
+MAX_NUMBER = 100
+
 
 def banner():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
@@ -21,6 +23,6 @@ def is_prime(number):
 
 
 def question_with_answer():
-    number = randint(1, 100)
+    number = randint(1, MAX_NUMBER)
     answer = 'yes' if is_prime(number) else 'no'
     return number, answer

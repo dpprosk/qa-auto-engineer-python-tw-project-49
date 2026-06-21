@@ -2,6 +2,8 @@ import prompt
 
 from . import game_calc, game_even, game_gcd, game_prime, game_progression
 
+MAX_CORRECT_ANSWERS = 3
+
 
 def print_banner(game):
     match game:
@@ -32,13 +34,12 @@ def get_data(game):
 
 
 def start(game):
-    max_correct_answers = 3
     correct_answers_count = 0
     print('Welcome to the Brain Games!')
     player_name = prompt.string('May I have your name? ')
     print(f'Hello, {player_name}!')
     print_banner(game)
-    while correct_answers_count < max_correct_answers:
+    while correct_answers_count < MAX_CORRECT_ANSWERS:
         question, correct_answer = get_data(game)
         answer = prompt.string(f'Question: {question}\nYour answer: ')
         if answer == correct_answer:
@@ -49,5 +50,5 @@ def start(game):
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {player_name}!")
             break
-    if correct_answers_count == max_correct_answers:
+    if correct_answers_count == MAX_CORRECT_ANSWERS:
         print(f'Congratulations, {player_name}!')
